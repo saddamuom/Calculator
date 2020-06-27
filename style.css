@@ -1,0 +1,52 @@
+.main{
+border: 2px solid gray; 
+width: 170px;
+margin: 0 auto;
+
+}
+
+.result{
+
+    width: 95%;
+   
+    
+  
+
+
+}
+
+.clearbtn{
+
+width: 80px;
+margin-top: 3px;
+}
+.btn{
+
+    background-color: gray;
+    width: 38px;
+    margin: .4px;
+
+  
+
+}
+
+.opbtn{
+
+    background-color: lightsalmon;
+    width: 40px;
+}
+.npt{
+
+    width: 162px;
+}
+
+.name{
+
+
+    text-align: center;
+    background-color: silver;
+    border:  1px thin black;
+    margin-top: 20px;
+    margin: 0 auto ;
+    width: 120px;
+}

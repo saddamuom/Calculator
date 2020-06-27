@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+</head>
+<body>
+    
+    <div class="main">
+        <div class="result">
+            <input type="text" name="" id="result" class="npt">
+        </div>
+        
+        <div>
+        
+            <button class="btn" onclick="clearResult()">C</button>
+            <button class="btn" onclick="getNumber('(')">(</button>
+            <button class="btn" onclick="getNumber(')')">)</button>
+            <button class="opbtn" onclick="getResult('Ans')" >Ans</button>
+        </div>
+        
+        <div>
+            <button class="btn" onclick="getNumber('7')">7</button>
+            <button class="btn" onclick="getNumber('8')">8</button>
+            <button class="btn" onclick="getNumber('9')">9</button>
+            <button class="opbtn" onclick="getNumber('*')">x</button>
+        </div>
+        <div>
+            <button class="btn" onclick="getNumber('4')">4</button>
+            <button class="btn" onclick="getNumber('5')">5</button>
+            <button class="btn" onclick="getNumber('6')">6</button>
+            <button class="opbtn" onclick="getNumber('-')">-</button>
+        </div>
+        <div>
+            <button class="btn" onclick="getNumber('1')">1</button>
+            <button class="btn" onclick="getNumber('2')">2</button>
+            <button class="btn" onclick="getNumber('3')">3</button>
+            <button class="opbtn"onclick="getNumber('+')">+</button>
+        </div>
+        <div>
+            <button class="btn" onclick="getNumber('0')">0</button>
+            <button class="btn" onclick="getNumber('000')">000</button>
+            <button class="btn" onclick="getNumber('00')">00</button>
+            <button class="opbtn" onclick="getResult('=')">=</button>
+        </div>
+       
+    </div>
+    <br>
+<div class="name" id= saddam>
+
+    <h5>Saddam Hussain</h5>
+    <h5>Assignment No:7</h5>
+    <h5>Class: Java Script</h5>
+    <p>Calculator</p>
+
+</div>
+    
+
+
+
+</body>
+
+
+<script src="main.js"></script>
+</html>
